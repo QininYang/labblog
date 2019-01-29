@@ -1,7 +1,11 @@
 <template>
   <div class="home">
-    <div class="container-header"></div>
-    <div class="container-description"></div>
+    <div class="container-header">
+      <header-com />
+    </div>
+    <div class="container-description">
+      <des-com />
+    </div>
     <div class="container-highlights"></div>
     <div class="container-mainer"></div>
     <div class="container-footer"></div>
@@ -10,12 +14,13 @@
 
 <script>
   // @ is an alias to /src
-  import HelloWorld from "@/components/HelloWorld.vue";
-
+  import HeaderCom from "@/components/HeaderCom.vue";
+  import DesCom from "@/components/DesCom.vue"
   export default {
     name: "home",
     components: {
-      HelloWorld
+      HeaderCom,
+      DesCom
     }
   };
 </script>
