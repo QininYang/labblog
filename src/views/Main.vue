@@ -19,3 +19,13 @@
     }
   };
 </script>
+
+<style lang="scss">
+  .home {
+    background: #000;
+    height: 1200px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
