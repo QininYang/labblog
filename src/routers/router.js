@@ -1,9 +1,9 @@
-import Home from "@/views/Home.vue";
+import Main from "@/views/Main.vue";
 
 const homeRouter = {
   path: "/",
   name: "home",
-  component: Home
+  component: Main
 };
 
 const aboutRouter = {
@@ -15,4 +15,5 @@ const aboutRouter = {
   component: () => import(/* webpackChunkName: "about" */ "@/views/About.vue")
 };
 
-export const routers = [homeRouter, aboutRouter];
+//can't use routers
+export const routes = [homeRouter, aboutRouter];
