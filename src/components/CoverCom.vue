@@ -1,5 +1,9 @@
 <template>
-  <div class=""></div>
+  <div class="cover-main">
+    <a class="cover-title" :href="item.url">{{ item.title }} </a>
+    <div class="cover-date">{{ item.publish }}</div>
+    <div class="cover-year">{{ item.year }}</div>
+  </div>
 </template>
 
 <script>
@@ -9,7 +13,7 @@
       return {};
     },
     props: {
-      Item: {
+      item: {
         type: Object,
         default: () => ({})
       }
@@ -17,4 +21,12 @@
   };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+  .cover-main {
+    border-left: 5px solid red;
+    margin-bottom: 20px;
+  }
+  .a {
+    text-align: left;
+  }
+</style>
