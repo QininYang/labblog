@@ -1,18 +1,15 @@
 <template>
-  <div class=""></div>
+  <div></div>
 </template>
 
 <script>
   export default {
-    name: "maincom",
+    name: "mainright",
     data() {
       return {};
     },
     props: {
-      Item: {
-        type: Object,
-        default: () => ({})
-      }
+      coverages: {}
     }
   };
 </script>
