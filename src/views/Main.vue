@@ -6,21 +6,31 @@
     <div class="container-description">
       <des-com />
     </div>
-    <div class="container-highlights"></div>
-    <div class="container-mainer"></div>
-    <div class="container-footer"></div>
+    <div class="container-highlights">
+      <high-com />
+    </div>
+    <div class="container-mainer">
+
+    </div>
+    <div class="container-footer">
+      <footer-com />
+    </div>
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
   import HeaderCom from "@/components/HeaderCom.vue";
-  import DesCom from "@/components/DesCom.vue"
+  import DesCom from "@/components/DesCom.vue";
+  import FooterCom from "@/components/FooterCom.vue";
+  import HighCom from "@/components/HighCom.vue";
   export default {
     name: "home",
     components: {
       HeaderCom,
-      DesCom
+      DesCom,
+      FooterCom,
+      HighCom,
     }
   };
 </script>

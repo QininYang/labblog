@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: "maincom",
+    name: "covercom",
     data() {
       return {};
     },
