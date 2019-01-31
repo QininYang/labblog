@@ -12,6 +12,7 @@
     <div class="container-mainer">
       <main-view />
     </div>
+    <div ><people-view></people-view></div>
     <div class="container-footer">
       <footer-com />
     </div>
@@ -24,7 +25,8 @@
   import DesCom from "@/components/DesCom.vue";
   import FooterCom from "@/components/FooterCom.vue";
   import HighCom from "@/components/HighCom.vue";
-  import MainView from "@/views/contents/MainView.vue"
+  import MainView from "@/views/contents/MainView.vue";
+  import PeopleView from "@/views/contents/PeopleView.vue"
   export default {
     name: "home",
     components: {

@@ -67,3 +67,5 @@ export const coverages = [
     year: "November 2014"
   }
 ];
+
+export const peoples = [];
