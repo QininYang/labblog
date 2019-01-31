@@ -35,6 +35,7 @@
       FooterCom,
       HighCom,
       MainView,
+      PeopleView
     }
   };
 </script>
@@ -42,7 +43,7 @@
 <style lang="scss">
   .home {
     background: #000;
-    height: 1800px;
+    height: 2500px;
     width: 940px;
     margin-left: auto;
     margin-right: auto;

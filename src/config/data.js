@@ -68,4 +68,45 @@ export const coverages = [
   }
 ];
 
-export const peoples = [];
+export const peoples = [
+  {
+    url: "",
+    alt: "sssss",
+    name: "王大锤1",
+    degree: "学生1",
+    direction: "数学1",
+    achievement: "视觉研究"
+  },
+  {
+    url: "",
+    alt: "sssss",
+    name: "王大锤2",
+    degree: "学生2",
+    direction: "数学2",
+    achievement: "视觉研究"
+  },
+  {
+    url: "",
+    alt: "sssss",
+    name: "王大锤3",
+    degree: "学生3",
+    direction: "数学3",
+    achievement: "视觉研究"
+  },
+  {
+    url: "",
+    alt: "sssss",
+    name: "王大锤4",
+    degree: "学生4",
+    direction: "数学4",
+    achievement: "视觉研究"
+  },
+  {
+    url: "",
+    alt: "sssss",
+    name: "王大锤5",
+    degree: "学生5",
+    direction: "数学5",
+    achievement: "视觉研究"
+  }
+];
