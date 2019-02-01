@@ -1,7 +1,11 @@
 <template>
   <div class="main-container">
-    <div class="main-container-left"></div>
-    <div class="main-container-right"></div>
+    <div class="main-container-left">
+      <main-left v-bind:newsdata="newsdata"/>
+    </div>
+    <div class="main-container-right">
+      <main-right v-bind:coverages="coverages"/>
+    </div>
   </div>
 </template>
 
@@ -24,9 +28,17 @@
   };
 </script>
 
-<style lang="scss">
+<style lang="scss" >
   .main-container {
-    height: 300px;
     background-color: cornsilk;
+  }
+  .main-container-left {
+    display: inline-block;
+    width: 50%;
+  }
+  .main-container-right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top; /*置顶*/
   }
 </style>

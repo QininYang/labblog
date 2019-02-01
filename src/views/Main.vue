@@ -10,8 +10,9 @@
       <high-com />
     </div>
     <div class="container-mainer">
-
+      <main-view />
     </div>
+    <div ><people-view></people-view></div>
     <div class="container-footer">
       <footer-com />
     </div>
@@ -24,6 +25,8 @@
   import DesCom from "@/components/DesCom.vue";
   import FooterCom from "@/components/FooterCom.vue";
   import HighCom from "@/components/HighCom.vue";
+  import MainView from "@/views/contents/MainView.vue";
+  import PeopleView from "@/views/contents/PeopleView.vue"
   export default {
     name: "home",
     components: {
@@ -31,6 +34,8 @@
       DesCom,
       FooterCom,
       HighCom,
+      MainView,
+      PeopleView
     }
   };
 </script>
@@ -38,7 +43,7 @@
 <style lang="scss">
   .home {
     background: #000;
-    height: 1200px;
+    height: 2500px;
     width: 940px;
     margin-left: auto;
     margin-right: auto;

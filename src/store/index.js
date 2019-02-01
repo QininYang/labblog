@@ -8,3 +8,5 @@ export default new Vuex.Store({
   mutations: {},
   actions: {}
 });
+
+//使用vuex来控制状态，没用过......
