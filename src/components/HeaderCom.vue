@@ -22,7 +22,7 @@
 <script>
 export default {
   name: "headercomponents",
-  data() {
+  data () {
     return {};
   }
 };
@@ -40,11 +40,14 @@ export default {
 }
 .header-panel {
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   right: 25px;
-  border-radius: 10px;
+  // border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   /* border: 1px solid #d7dde4; */
-  background-color: rgba(13, 91, 209, 0.4);
+  background-color: #fff;
+  text-align: center;
   height: 100px;
   width: 500px;
   div {
