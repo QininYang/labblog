@@ -31,6 +31,14 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #08c;
+}
 .home {
   background-color: cornsilk;
   width: 940px;
